@@ -1,4 +1,4 @@
-<?php include "config.php"; ?>
+<?php include(__DIR__ . "/../config.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +21,7 @@
   <!-- Menu -->
   <ul class="nav-links" id="navLinks">
 
-    <li><a href="/farland">Home</a></li>
+    <li><a href="">Home</a></li>
     <li><a href="#">About</a></li>
 
     <!-- Dropdown -->
