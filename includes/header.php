@@ -1,3 +1,4 @@
+<?php include "config.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Farland</title>
 
-  <link rel="stylesheet" href="/farland/css/style.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>css/style.css">
 </head>
 <body>
 
@@ -13,7 +14,7 @@
 
 <div class="logo">
   <a href="#">
-    <img src="/farland/images/logo.png" alt="Farland Logo">
+    <img src="<?php echo BASE_URL; ?>images/logo.png">
   </a>
 </div>
 
@@ -36,7 +37,7 @@
       </div>
     </li>
 
-  <li><a href=" /farland/pages/contact.php">Contact</a></li>
+  <li><a href="<?php echo BASE_URL; ?>pages/contact.php">Contact</a></li>
 
   </ul>
 

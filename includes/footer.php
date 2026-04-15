@@ -1,7 +1,7 @@
 <p>footer</p>
 
 <!-- ✅ JS CONNECTED -->
-<script src="/farland/js/script.js"></script>
+<script src="<?php echo BASE_URL; ?>js/script.js"></script>
 
 </body>
 </html>
