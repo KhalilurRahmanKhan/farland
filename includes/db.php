@@ -1,6 +1,6 @@
 
 <?php
-$conn = mysqli_connect("localhost", "farland", "zzp4qY@@DWnuZC7", "farland");
+$conn = mysqli_connect("localhost", "", "", "");
 
 if (!$conn) {
     die("DB connection failed");
