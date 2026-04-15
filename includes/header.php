@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farland</title>
+
+  <link rel="stylesheet" href="/farland/css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+
+<div class="logo">
+  <a href="#">
+    <img src="/farland/images/logo.png" alt="Farland Logo">
+  </a>
+</div>
+
+  <!-- Menu -->
+  <ul class="nav-links" id="navLinks">
+
+    <li><a href="/farland">Home</a></li>
+    <li><a href="#">About</a></li>
+
+    <!-- Dropdown -->
+    <li class="dropdown">
+      <a href="#" class="drop-btn">
+        Services <span class="arrow">▼</span>
+      </a>
+
+      <div class="dropdown-menu">
+        <a href="#">🎓 Admission</a>
+        <a href="#">🛂 Visa Support</a>
+        <a href="#">💬 Counseling</a>
+      </div>
+    </li>
+
+  <li><a href=" /farland/pages/contact.php">Contact</a></li>
+
+  </ul>
+
+  <!-- Right -->
+  <div class="nav-right">
+    <a href="#" class="cta-btn">Apply Now</a>
+
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+</nav>
