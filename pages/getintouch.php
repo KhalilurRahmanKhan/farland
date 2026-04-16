@@ -7,19 +7,19 @@
     <div class="touch-box">
       <div class="icon">🌐</div>
       <h3>Website</h3>
-      <p>www.farland.com</p>
+      <p>www.farlandglobaleducation.com</p>
     </div>
 
     <div class="touch-box">
       <div class="icon">📧</div>
       <h3>Email</h3>
-      <p>info@farland.com</p>
+      <p>info@farlandglobaleducation.com</p>
     </div>
 
     <div class="touch-box">
       <div class="icon">💬</div>
       <h3>WhatsApp</h3>
-      <p>+60 123 456 789</p>
+      <p>+60-146032709</p>
     </div>
 
     <div class="touch-box">

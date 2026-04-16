@@ -102,7 +102,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background: white;
+  background: #0a3d62;
   min-width: 200px;
   border-radius: opx;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -114,14 +114,14 @@
 }
 
 .dropdown-menu a {
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 12px 15px;
   display: block;
   transition: 0.2s;
 }
 
 .dropdown-menu a:hover {
-  background: #f1f2f6;
+  background: #052f4e;
 }
 
 /* ARROW */
@@ -203,7 +203,7 @@
 
   .nav-links a {
     display: block;
-    padding: 12px;
+    padding: 5px;
     width: 100%;
   }
 
@@ -714,7 +714,7 @@
 
 /* ===== CONTACT ===== */
 .contact-section {
-  padding: 80px 20px;
+  padding: 90px 20px;
   background: linear-gradient(135deg, #f5f7fa, #e8f0ff);
 }
 
@@ -943,4 +943,66 @@
 
 .footer {
   box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== PRIVACY PAGE ===== */
+.privacy-section {
+  padding: 80px 20px;
+  background: #f9fbff;
+}
+
+.privacy-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.privacy-container h1 {
+  margin-bottom: 20px;
+  color: #0a3d62;
+}
+
+.privacy-container h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #0a3d62;
+}
+
+.privacy-container p,
+.privacy-container li {
+  color: #555;
+  line-height: 1.6;
+}
+
+.privacy-container ul {
+  padding-left: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .privacy-container {
+    padding: 20px;
+  }
 }

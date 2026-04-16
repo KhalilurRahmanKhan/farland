@@ -7,7 +7,7 @@
       <div class="hero-content">
         <h1>Your Future Starts Here</h1>
         <p>Admissions, visa guidance & scholarship assistance.</p>
-        <a href="/contact.php" class="hero-btn">Get Started</a>
+        <a href="<?= BASE_URL ?>pages/contact.php" class="hero-btn">Contact Us</a>
       </div>
     </div>
 
@@ -16,7 +16,7 @@
       <div class="hero-content">
         <h1>Study Abroad Made Easy</h1>
         <p>We guide students to top universities worldwide with full support.</p>
-        <a href="/contact.php" class="hero-btn">Apply Now</a>
+       <a href="<?= BASE_URL ?>pages/contact.php" class="hero-btn">Contact Us</a>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
       <div class="hero-content">
         <h1>Top Universities Worldwide</h1>
         <p>Choose from Malaysia, UK, Australia, Canada and more.</p>
-        <a href="/contact.php" class="hero-btn">Start Now</a>
+        <a href="<?= BASE_URL ?>pages/contact.php" class="hero-btn">Contact Us</a>
       </div>
     </div>
 

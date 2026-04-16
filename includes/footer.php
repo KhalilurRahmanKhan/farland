@@ -10,10 +10,11 @@
 
   <!-- RIGHT -->
   <div class="footer-right">
-    <a href="/about.php">About</a>
-    <a href="/contact.php">Contact</a>
-    <a href="#">Privacy Policy</a>
-    <a href="#">Terms & Conditions</a>
+    <a href="<?= BASE_URL ?>#about">About</a>
+    <a href="<?= BASE_URL ?>pages/contact.php">Contact</a>
+    <a href="<?= BASE_URL ?>pages/privacy.php">Privacy Policy</a>
+    <a href="<?= BASE_URL ?>pages/terms.php">Terms & Conditions</a>
+    
   </div>
 
 </footer>

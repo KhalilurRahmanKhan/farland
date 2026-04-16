@@ -22,9 +22,11 @@
   <ul class="nav-links" id="navLinks">
 
     <li><a href="<?= BASE_URL ?>">Home</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="<?= BASE_URL ?>#about">About</a></li>
+    <li><a href="<?= BASE_URL ?>#services">Services</a></li>
+    <li><a href="<?= BASE_URL ?>pages/contact.php">Contact</a></li>
 
-    <!-- Dropdown -->
+    <!-- Dropdown
     <li class="dropdown">
       <a href="#" class="drop-btn">
         Services <span class="arrow">▼</span>
@@ -35,15 +37,15 @@
         <a href="#">🛂 Visa Support</a>
         <a href="#">💬 Counseling</a>
       </div>
-    </li>
+    </li> -->
 
-  <li><a href="<?= BASE_URL ?>pages/contact.php">Contact</a></li>
+  <li></li>
 
   </ul>
 
   <!-- Right -->
   <div class="nav-right">
-    <a href="#" class="cta-btn">Apply Now</a>
+    <a href="<?= BASE_URL ?>pages/apply.php"  class="cta-btn">Apply Now</a>
 
     <div class="menu-toggle" id="menuToggle">
       <span></span>

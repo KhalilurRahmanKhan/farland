@@ -1,4 +1,4 @@
-<section class="about-section">
+<section id="about" class="about-section">
 
   <div class="about-container">
 
@@ -13,7 +13,7 @@
         Our experienced team connects you with universities, provides application assistance, and ensures a smooth transition to study abroad. Your success is our priority.
       </p>
 
-      <a href="/contact.php" class="about-btn">Contact Us</a>
+      <a href="<?= BASE_URL ?>pages/contact.php" class="about-btn">Contact Us</a>
     </div>
 
     <!-- RIGHT: IMAGE -->
