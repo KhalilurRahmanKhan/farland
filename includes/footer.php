@@ -21,6 +21,9 @@
 
 <!-- JS -->
 <script src="/js/script.js"></script>
+<a href="https://wa.me/60146032709?text=Hello%20I%20want%20to%20apply" target="_blank" class="whatsapp-float">
+  <i class="fab fa-whatsapp"></i>
+</a>
 </body>
 </html>
 
