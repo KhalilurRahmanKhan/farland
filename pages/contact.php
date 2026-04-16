@@ -1,7 +1,8 @@
-            <?php include "../includes/header.php"; ?>
+<?php require_once(__DIR__ . '/../config.php'); ?>
+<?php include(BASE_PATH . '/includes/db.php'); ?>
+<?php include(BASE_PATH . '/includes/header.php'); ?>
 <?php
 session_start();
-include "../includes/db.php";
 
 /* HANDLE FORM */
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
