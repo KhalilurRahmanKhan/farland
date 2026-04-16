@@ -14,14 +14,14 @@
 
 <div class="logo">
   <a href="#">
-    <img src="<?= BASE_URL ?>images/logo.png">
+    <img src="<?= BASE_URL ?>images/logo.PNG">
   </a>
 </div>
 
   <!-- Menu -->
   <ul class="nav-links" id="navLinks">
 
-    <li><a href="/farland/index.php">Home</a></li>
+    <li><a href="/">Home</a></li>
     <li><a href="#">About</a></li>
 
     <!-- Dropdown -->
