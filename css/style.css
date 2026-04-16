@@ -138,11 +138,13 @@
 /* BUTTON */
 .cta-btn {
   padding: 8px 18px;
-  background: linear-gradient(45deg, #feca57, #ff9f43);
-  color: black;
+  background: linear-gradient(45deg, #1a15aa, #9aa5ef);
+  color: white;
   border-radius: 20px;
+   border: 2px solid black;
   text-decoration: none;
   transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(241, 238, 238, 0.2);
 }
 
 .cta-btn:hover {
@@ -306,12 +308,16 @@
 /* BUTTON */
 .hero-btn {
   padding: 12px 25px;
-  background: #feca57;
-  color: black;
+  background: #ffae00;
+  color: rgb(0, 0, 0);
   border-radius: 25px;
   text-decoration: none;
 }
-
+.hero-btn:hover {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+  transform: translateX(3px);
+  
+}
 /* CONTROLS */
 .prev, .next {
   position: absolute;
