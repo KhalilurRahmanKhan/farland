@@ -1006,3 +1006,85 @@
     padding: 20px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== APPLY PAGE ===== */
+.apply-section {
+  padding: 80px 20px;
+  background: #f5f7fa;
+}
+
+.apply-container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.apply-container h1 {
+  margin-bottom: 10px;
+  color: #0a3d62;
+}
+
+.apply-container p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* FORM */
+.apply-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-form input,
+.apply-form select,
+.apply-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.apply-form textarea {
+  height: 120px;
+}
+
+/* BUTTON */
+.apply-form button {
+  padding: 12px;
+  background: linear-gradient(45deg, #0a3d62, #1e5f9e);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.apply-form button:hover {
+  opacity: 0.9;
+}

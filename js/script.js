@@ -80,3 +80,15 @@ function closeModal() {
   const modal = document.getElementById("successModal");
   if (modal) modal.style.display = "none";
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("successModal");
+  const btn = document.getElementById("closeModalBtn");
+
+  if (modal && btn) {
+    btn.onclick = () => modal.remove();
+    modal.onclick = (e) => {
+      if (e.target === modal) modal.remove();
+    };
+  }
+});
