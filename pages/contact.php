@@ -39,22 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- LEFT -->
     <div class="contact-info">
       <h2>Contact Us</h2>
-      <p>We help students achieve their dream of studying abroad.</p>
-
-      <div class="info-box">
-        <div class="info-icon">📍</div>
-        <div>Kuala Lumpur, Malaysia</div>
-      </div>
-
-      <div class="info-box">
-        <div class="info-icon">📞</div>
-        <div>+60 123 456 789</div>
-      </div>
-
-      <div class="info-box">
-        <div class="info-icon">📧</div>
-        <div>info@farland.com</div>
-      </div>
+      <p>Have any questions or want to discuss your study plans? Fill out the form below and we’ll get back to you as soon as possible.</p>
     </div>
 
     <!-- RIGHT -->

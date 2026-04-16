@@ -17,7 +17,7 @@
   }
 }
 .logo img {
-  height: 50px;
+  height: 60px;
   transition: 0.3s;
 }
 
@@ -64,6 +64,7 @@
 }
 
 .nav-links a {
+  font-size: 20px;
   color: white;
   text-decoration: none;
   padding: 8px;
@@ -293,11 +294,12 @@
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .hero-content p {
-  margin: 10px 0 20px;
+  font-size: 20px;
+  margin: 10px 0 30px;
 }
 
 /* BUTTON */
@@ -421,6 +423,87 @@
 
 
 
+
+
+/* ===== GET IN TOUCH ===== */
+.touch-section {
+  background: #0a3d62; /* same blue as navbar */
+  padding: 70px 20px;
+  color: white;
+  text-align: center;
+}
+
+.touch-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+/* CONTAINER */
+.touch-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* BOX */
+.touch-box {
+  background: rgba(255,255,255,0.08);
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+/* ICON */
+.touch-box .icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.touch-box h3 {
+  margin-bottom: 10px;
+}
+
+.touch-box p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* HOVER */
+.touch-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.15);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .touch-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .touch-container {
+    grid-template-columns: 1fr;
+  }
+}
+.touch-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+
+
+
 /* ===== CONTACT ===== */
 .contact-section {
   padding: 80px 20px;
@@ -442,12 +525,13 @@
 }
 
 .contact-info h2 {
-  font-size: 28px;
+  font-size: 40px;
   color: #0a3d62;
   margin-bottom: 15px;
 }
 
 .contact-info p {
+  font-size: 20px;
   margin-bottom: 25px;
   color: #555;
 }
