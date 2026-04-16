@@ -21,7 +21,7 @@
   <!-- Menu -->
   <ul class="nav-links" id="navLinks">
 
-    <li><a href="/">Home</a></li>
+    <li><a href="<?= BASE_URL ?>">Home</a></li>
     <li><a href="#">About</a></li>
 
     <!-- Dropdown -->
