@@ -25,6 +25,7 @@
     <li><a href="<?= BASE_URL ?>#about">About</a></li>
     <li><a href="<?= BASE_URL ?>#services">Services</a></li>
     <li><a href="<?= BASE_URL ?>pages/contact.php">Contact</a></li>
+    <li><a href="<?= BASE_URL ?>pages/apply.php"  class="apply-btn">Apply Now</a></li>
 
     <!-- Dropdown
     <li class="dropdown">

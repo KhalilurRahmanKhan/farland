@@ -150,6 +150,21 @@
 .cta-btn:hover {
   transform: scale(1.05);
 }
+.apply-btn {
+  padding: 8px 18px;
+  background: linear-gradient(45deg, #1a15aa, #9aa5ef);
+  color: white;
+  border-radius: 20px;
+   border: 2px solid black;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(241, 238, 238, 0.2);
+  display: none;
+}
+
+.apply-btn:hover {
+  transform: scale(1.05);
+}
 
 /* RIGHT */
 .nav-right {
@@ -215,6 +230,9 @@
 
   .cta-btn {
     display: none;
+  }
+  .apply-btn {
+    display: visible;
   }
 
   /* MOBILE DROPDOWN */
@@ -337,9 +355,20 @@
 
 /* MOBILE */
 @media (max-width: 768px) {
+
   .hero-content h1 {
-    font-size: 28px;
-  }
+  font-size: 28px;
+}
+
+.hero-content p {
+  font-size: 15px;
+  
+}
+.hero {
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
 }
 
 
