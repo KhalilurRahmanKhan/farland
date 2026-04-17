@@ -2,7 +2,7 @@
 
   <div class="carousel">
 
-    <div class="slide active" style="background-image: url('https://i.ibb.co/5h4T2dsh/473015-Kuala-Lumpur.webp');">
+    <div class="slide active" style="background-image: url('<?= BASE_URL ?>images/kl.webp');">
       <div class="overlay"></div>
       <div class="hero-content">
         <h1>Your Future Starts Here</h1>
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="slide" style="background-image: url('https://i.ibb.co/4ntG3c7q/united-kingdom.jpg');">
+    <div class="slide" style="background-image: url('<?= BASE_URL ?>images/london.jpg');">
       <div class="overlay"></div>
       <div class="hero-content">
         <h1>Study Abroad Made Easy</h1>
@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <div class="slide" style="background-image: url('https://i.ibb.co/HDjfBV00/australia-itinerary-days-to-spend-1567572339-785-X440.jpg');">
+    <div class="slide" style="background-image: url('<?= BASE_URL ?>images/aus.jpg');">
       <div class="overlay"></div>
       <div class="hero-content">
         <h1>Top Universities Worldwide</h1>

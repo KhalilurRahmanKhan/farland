@@ -14,9 +14,7 @@
 <nav class="navbar" id="navbar">
 
 <div class="logo">
-  <a href="#">
-    <img src="<?= BASE_URL ?>images/logo.PNG">
-  </a>
+  <a href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>images/logo.PNG"></a>
 </div>
 
   <!-- Menu -->
