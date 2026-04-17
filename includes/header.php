@@ -8,6 +8,10 @@
 
   <link rel="stylesheet" href="<?= BASE_URL ?>css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= BASE_URL ?>images/favicon.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= BASE_URL ?>images/favicon.jpg">
+  <link rel="apple-touch-icon" href="<?= BASE_URL ?>images/favicon.jpg">
 </head>
 <body>
 
